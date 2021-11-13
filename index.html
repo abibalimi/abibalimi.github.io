@@ -114,7 +114,51 @@
               </p>
             </td>
           </tr>
-					
+	  
+	  
+          <tr onmouseout="npil_stop()" onmouseover="npil_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='npil_image'>
+                  <img src='images/npil_after.jpg' width="160"></div>
+                <img src='images/npil_before.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function npil_start() {
+                  document.getElementById('npil_image').style.opacity = "1";
+                }
+
+                function npil_stop() {
+                  document.getElementById('npil_image').style.opacity = "0";
+                }
+                npil_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://markboss.me/publication/2021-neural-pil/">
+                <papertitle>Solving the Inclination Sign Ambiguity in Three Dimensional Polarized Light Imaging with a PDE-Based Method</papertitle>
+              </a>
+              <br>
+
+              <a href="https://markboss.me">Mark Boss</a>, 
+              <a href="https://varunjampani.github.io">Varun Jampani</a>,
+              <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/mitarbeiter/raphael-braun/">Raphael Braun</a>,
+              <a href="http://people.csail.mit.edu/celiu/">Ce Liu</a>,
+              <strong>Jonathan T. Barron</strong>,
+              <a href="https://uni-tuebingen.de/en/faculties/faculty-of-science/departments/computer-science/lehrstuehle/computergrafik/computer-graphics/staff/prof-dr-ing-hendrik-lensch/">Hendrik P. A. Lensch</a>
+              <br>
+							<em>IEEE-ISBI</em>, 2017
+              <br>
+              <a href="https://markboss.me/publication/2021-neural-pil/">project page</a> /
+              <a href="https://www.youtube.com/watch?v=p5cKaNwVp4M">video</a> /
+              <a href="https://arxiv.org/abs/2110.14373">arXiv</a>
+              <p></p>
+              <p>
+              Replacing a costly illumination integral with a simple network query enables more accurate novel view-synthesis and relighting compared to NeRD.
+              </p>
+            </td>
+          </tr>          
+	  
 					
           <!--tr onmouseout="hypernerf_stop()" onmouseover="hypernerf_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
