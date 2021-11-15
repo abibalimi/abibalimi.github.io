@@ -125,14 +125,62 @@
                 <papertitle>An analytical fiber ODF reconstruction in 3D-Polarized Light Imaging</papertitle>
               </a>
               <br>
-              <strong>Jonathan T. Barron</strong>, <a href="http://stumm.ca/">Christopher Stumm</a>, <a href="http://cosmo.nyu.edu/hogg/">David W. Hogg</a>, <a href="http://www.astro.princeton.edu/~dstn/">Dustin Lang</a>, <a href="http://cs.nyu.edu/~roweis/">Sam Roweis</a>
+              <strong>Abib Alimi</strong>, 
+		    <a href="http://stumm.ca/">Christopher Stumm</a>, 
+		    <a href="http://cosmo.nyu.edu/hogg/">David W. Hogg</a>, 
+		    <a href="http://www.astro.princeton.edu/~dstn/">Dustin Lang</a>, 
+		    <a href="http://cs.nyu.edu/~roweis/">Sam Roweis</a>
               <br>
               				<em>IEEE-ISBI</em>, 2018
-              <p>We use computer vision techniques to identify and remove diffraction spikes and reflection halos in the USNO-B Catalog.</p>
+              <p>We propose an analytical method to compute the fiber orientation distribution function (ODF) 
+		      from high-resolution vector data provided by 3D-PLI.</p>
               <p>In use at <a href="http://www.astrometry.net">Astrometry.net</a></p>
             </td>
-          </tr-->
+          </tr>
 		
+          <tr onmouseout="alphi2_stop()" onmouseover="alphi2_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='alphi2_image'>
+                  <!--img src='images/npil_after.jpg' width="160"></div>
+                <img src='images/npil_before.jpg' width="160"-->
+                  <img src='images/alphi2.png' width="160"></div>
+                <img src='' width="160">
+              </div>
+              <script type="text/javascript">
+                function alphi2_start() {
+                  document.getElementById('alphi2_image').style.opacity = "1";
+                }
+
+                function alphi2_stop() {
+                  document.getElementById('alphi2_image').style.opacity = "0";
+                }
+                npil_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://hal.inria.fr/hal-01533363/document">
+                <papertitle>We propose an analytical method to compute the fiber orientation distribution function (ODF) 
+		      from high-resolution vector data provided by 3D-PLI</papertitle>
+              </a>
+              <br>
+
+	      <strong>Abib Alimi</strong>,
+              <a href="">Marco Pizzolato</a>, 
+              <a href="">Rutger H.J. Fick</a>,
+              <a href="https://team.inria.fr/athena/team-members/rachid-deriche/">Rachid Deriche</a>,
+              <br>
+					<em>IEEE-ISBI</em>, 2018
+              <br>
+              <!--a href="https://markboss.me/publication/2021-neural-pil/">project page</a> / -->
+              <!--a href="https://www.youtube.com/watch?v=p5cKaNwVp4M">video</a> / -->
+              <a href="data/IEEE_ISBI_2018">bibtex</a>
+              <p></p>
+              <p>A partial differential equations (PDE)-based mthod is proposed to reduce the noise from tilted measurements and 
+		 disentangle the sign ambiguity of the inclination angle for a more accurate reconstruction and interpretation of the 3D-PLI fiber orientation.  
+              </p>
+            </td>
+          </tr>		
 		
 		
           <tr onmouseout="alphi2_stop()" onmouseover="alphi2_start()">
