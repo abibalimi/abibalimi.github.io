@@ -72,7 +72,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
-          <tr onmouseout="npil_stop()" onmouseover="npil_start()">
+          <!--tr onmouseout="npil_stop()" onmouseover="npil_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='npil_image'>
@@ -113,7 +113,7 @@
               Replacing a costly illumination integral with a simple network query enables more accurate novel view-synthesis and relighting compared to NeRD.
               </p>
             </td>
-          </tr>
+          </tr-->
 	  
 
           <!--tr>
@@ -137,6 +137,51 @@
               <p>In use at <a href="http://www.astrometry.net">Astrometry.net</a></p>
             </td>
           </tr-->
+          <tr onmouseout="fod_stop()" onmouseover="fod_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='fod_image'>
+                  <!--img src='images/npil_after.jpg' width="160"></div>
+                <img src='images/npil_before.jpg' width="160"-->
+                  <img src='images/AA_fod.png' width="160"></div>
+                <img src='images/AA_fod.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function alphi2_start() {
+                  document.getElementById('fod_image').style.opacity = "1";
+                }
+
+                function alphi2_stop() {
+                  document.getElementById('fod_image').style.opacity = "0";
+                }
+                npil_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://hal.archives-ouvertes.fr/hal-02948387/file/presentation_sophia_summit_2019.pdf">
+                <papertitle>Spherical convolutional neural network for diffusion MRI analysis</papertitle>
+              </a>
+              <br>
+
+
+              <a href="">Sara Sedlar</a>, 
+	      <strong>Abib Alimi</strong>,		    
+              <a href="https://team.inria.fr/athena/team-members/theo-papadopoulo/">Théo Papadopoulo</a>,
+              <a href="https://team.inria.fr/athena/team-members/rachid-deriche/">Rachid Deriche</a>,
+	      <a href="">Samuel Deslauriers-Gauthier</a>,
+              <br>
+					<em>Sophia Summit</em>, 2019  (Oral presentation)
+              <br>
+              <!--a href="https://markboss.me/publication/2021-neural-pil/">project page</a> / -->
+              <!--a href="https://www.youtube.com/watch?v=p5cKaNwVp4M">video</a> / -->
+              <a href="data/AlimiIEEEISBI2018.bib">bibtex</a>
+              <p></p>
+              <p>We embed the specific diffusion MRI signal features (spherical representation, antipodal symmetry,) 
+		      to build new spherical convolutional neural netwoks.  
+              </p>
+            </td>
+          </tr>
+		
 		
           <tr onmouseout="fod_stop()" onmouseover="fod_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -160,8 +205,7 @@
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://hal.inria.fr/hal-01533363/document">
-                <papertitle>We propose an analytical method to compute the fiber orientation distribution function (ODF) 
-		      from high-resolution vector data provided by 3D-PLI</papertitle>
+                <papertitle>An analytical fiber ODF reconstruction in 3D-Polarized Light Imaging</papertitle>
               </a>
               <br>
 
