@@ -1,0 +1,13 @@
+@inproceedings{alimi:hal-02070912,
+  TITLE = {{Towards validation of diffusion MRI tractography: bridging the resolution gap with 3D Polarized Light Imaging}},
+  AUTHOR = {Alimi, Abib and Deslauriers-Gauthier, Samuel and Deriche, Rachid},
+  URL = {https://hal.inria.fr/hal-02070912},
+  BOOKTITLE = {{ISMRM 2019 - 27th Annual Meeting of International Society for Magnetic Resonance in Medicine}},
+  ADDRESS = {Montr{\'e}al, Canada},
+  PUBLISHER = {{Elsevier}},
+  YEAR = {2019},
+  MONTH = May,
+  PDF = {https://hal.inria.fr/hal-02070912/file/ISMRM_2019submitted.pdf},
+  HAL_ID = {hal-02070912},
+  HAL_VERSION = {v1},
+}
