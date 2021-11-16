@@ -137,6 +137,53 @@
               <p>In use at <a href="http://www.astrometry.net">Astrometry.net</a></p>
             </td>
           </tr-->
+
+		
+		
+          <tr onmouseout="ss2019_stop()" onmouseover="ss2019_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ss2019_image'>
+                  <img src='images/AA_ss2019.png' width="160"></div>
+                <img src='images/AA_ss2019.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function ss2019_start() {
+                  document.getElementById('ss2019_image').style.opacity = "1";
+                }
+
+                function ss2019_stop() {
+                  document.getElementById('ss2019_image').style.opacity = "0";
+                }
+                ss2019_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://hal.archives-ouvertes.fr/hal-03307031/document">
+                <papertitle>A spherical convolutional neural network for white matter structure imaging via dMRI</papertitle>
+              </a>
+              <br>
+
+
+              <a href="">Sara Sedlar</a>, 
+	      <strong>Abib Alimi</strong>,		    
+              <a href="https://team.inria.fr/athena/team-members/theo-papadopoulo/">Théo Papadopoulo</a>,
+              <a href="https://team.inria.fr/athena/team-members/rachid-deriche/">Rachid Deriche</a>,
+	      <a href="">Samuel Deslauriers-Gauthier</a>,
+              <br>
+					<em>MICCAI</em>, 2021  <!--&nbsp <strong>(Oral Presentation)</strong-->
+              <br>
+              <!--a href="https://markboss.me/publication/2021-neural-pil/">project page</a> / -->
+              <!--a href="https://www.youtube.com/watch?v=p5cKaNwVp4M">video</a> / -->
+              <a href="data/SedlarSS2019.bib">bibtex</a>
+              <p></p>
+              <p>We embed the specific diffusion MRI signal features (spherical representation, antipodal symmetry) 
+		      to build new spherical convolutional neural netwoks.  
+              </p>
+            </td>
+          </tr>
+
+		
 		
           <tr onmouseout="ismrm2019_stop()" onmouseover="ismrm2019_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
